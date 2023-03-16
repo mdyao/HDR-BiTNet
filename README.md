@@ -1,7 +1,7 @@
 
-# HDR-BiTNet
+# HDR-BiTNet (TMM 2023)
 
-## Bidirectional Translation Between UHD-HDR and HD-SDR Videos (TMM 2023)
+## Bidirectional Translation Between UHD-HDR and HD-SDR Videos 
 
 Mingde Yao, Dongliang He, Xin Li, Zhihong Pan, and Zhiwei Xiong(*)
 
@@ -9,13 +9,12 @@ Mingde Yao, Dongliang He, Xin Li, Zhihong Pan, and Zhiwei Xiong(*)
 
 University of Science and Technology of China (USTC)
 
-## Introduction
-
-This repository is the **official implementation** of the paper, "Low-Light Stereo Image Enhancement", where more implementation details are presented.
-
+**HDR-BiTNet aims at addressing the practical translation between UHD-HDR and HD-SDR videos.
+**
 
 ## Codes and Results (coming soon)
 
+<!-- This repository is the **official implementation** of the paper, "Bidirectional Translation Between UHD-HDR and HD-SDR Videos", where more implementation details are presented. -->
 
 
 ## Contact
