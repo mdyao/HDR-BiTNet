@@ -1,9 +1,9 @@
 
 # HDR-BiTNet (TMM 2023)
 
-## Bidirectional Translation Between UHD-HDR and HD-SDR Videos 
+## Bidirectional Translation Between UHD-HDR and HD-SDR Videos [Paper](https://ieeexplore.ieee.org/document/10025794/)
 
-Mingde Yao, Dongliang He, Xin Li, Zhihong Pan, and Zhiwei Xiong(*)
+[Mingde Yao](https://scholar.google.com/citations?user=fsE3MzwAAAAJ&hl=en), [Dongliang He](https://scholar.google.com/citations?user=ui6DYGoAAAAJ&hl=en), [Xin Li](https://scholar.google.com/citations?user=4BEGYMwAAAAJ&hl=zh-CN), [Zhihong Pan](https://scholar.google.com/citations?user=IVxQvz0AAAAJ&hl=en), and [Zhiwei Xiong](http://staff.ustc.edu.cn/~zwxiong/)*
 
 *Corresponding Author
 
