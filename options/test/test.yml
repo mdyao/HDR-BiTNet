@@ -1,0 +1,93 @@
+
+#### general settings
+
+name: InvHDR_ResUnit_test
+use_tb_logger: False
+model: InvHDR
+scale: 2
+gpu_ids: [0]
+
+#### datasets
+
+datasets:
+  train:
+    name: SIDD
+    mode: JSH_train
+    dataroot_HDR: '/data1/workspace/2022/ideas/TCI22_interact/data/SRITM/train/HDR_youtube_80.mat' # path to training Clean images
+    dataroot_SDR: '/data1/workspace/2022/ideas/TCI22_interact/data/SRITM/train/SDR_youtube_80.mat' # path to training Noisy images
+
+    use_shuffle: true
+    n_workers: 8  # per GPU
+    batch_size: 8
+    use_flip: true
+    use_rot: true
+#    color: RGB
+
+  val:
+    name: SIDD_val
+#    mode: JSH_real
+    mode: JSH_val
+    dataroot_SDR: '/data1/workspace/2022/ideas/TCI22_interact/data/SRITM/test/testset_SDR_x2.mat' # path to validation Clean images
+    dataroot_HDR: '/data1/workspace/2022/ideas/TCI22_interact/data/SRITM/test/testset_HDR.mat' # path to validation Noisy images
+
+#### network structures
+
+network_G:
+  which_model_G:
+      subnet_type: Resnet
+      subnet_type_sgt: AFF
+  in_nc: 3
+  out_nc: 3
+  block_num: [8, 8]
+  scale: 2
+
+
+#### path
+
+path:
+  root:
+  pretrain_model_G: './model.pth'
+  strict_load: true
+  resume_state: ~
+
+
+#### training settings: learning rate scheme, loss
+
+train:
+  lr_G: !!float 1e-4
+  beta1: 0.9
+  beta2: 0.999
+  niter: 600000
+  warmup_iter: -1  # no warm up
+
+  lr_scheme: MultiStepLR
+  lr_steps: [50000, 100000, 150000, 200000, 500000]
+  lr_gamma: 0.5
+
+  pixel_criterion_forw: l2
+  pixel_criterion_back: l1
+
+  manual_seed: 10
+
+  val_freq: !!float 2000
+
+  vgg16_model:
+
+  lambda_fit_forw: 10
+  lambda_vgg_forw: 0.
+  lambda_structure_forw: 1
+  lambda_orth_forw: 1
+
+  lambda_rec_back: 1
+  lambda_structure_back: 1
+  lambda_orth_back: 1
+
+  weight_decay_G: !!float 1e-8
+  gradient_clipping: 10
+
+
+#### logger
+
+logger:
+  print_freq: 1
+  save_checkpoint_freq: !!float 5000
