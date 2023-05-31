@@ -32,7 +32,14 @@ We provide the training and test code along with the trained weights and the dat
 
 ## Video example
 
-You can see the comparison of SDR video and HDR video in `example/` folder. 
+```HTML
+<video width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+</video>
+```
+
+
+You can see more comparison of SDR video and HDR video in `example/` folder. 
 
 :warning: **Note**: The `HDR.mp4` file is encoded to comply with the HDR10 standard. For the best viewing experience, please watch the video on [certified HDR displays](https://displayhdr.org/certified-products) with maximum brightness. (Alternatively, a Mac Book Pro can be used for convenience.)
 
