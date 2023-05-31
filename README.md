@@ -32,12 +32,8 @@ We provide the training and test code along with the trained weights and the dat
 
 ## Video example
 
-```HTML
-<video width="320" height="240" controls>
-    <source src="movie.mp4" type="video/mp4">
-</video>
-```
-
+![test_set_AdobeExpress_AdobeExpress_AdobeExpress](https://github.com/mdyao/HDR-BiTNet/assets/33108887/dc5b1ebe-de24-444f-ab5e-818bed782ea4)
+This gif file is tonemapped to the SDR and compressed for visulization. 
 
 You can see more comparison of SDR video and HDR video in `example/` folder. 
 
