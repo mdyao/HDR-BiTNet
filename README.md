@@ -41,10 +41,9 @@ You can download the training and testing dataset from [this link](https://drive
 3. Put the pretrained model file (./model.pth) in a proper folder.
 4. Set a config file in options/test/, then run as following:
 
-    ```
-        python test.py -opt options/test/test.yml
-
-    ```
+ ```
+ python test.py -opt options/test/test.yml
+ ```
 
 
 ## Code Framework
