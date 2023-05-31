@@ -14,6 +14,7 @@
 We provide the training and test code along with the trained weights and the dataset (train+test) used for the HDR-BiTNet. If you find this repository useful, please star this repo :star2: and cite our paper :page_facing_up:.
 
 **Reference**:  
+
 > Mingde Yao, Dongliang He, Xin Li, Zhihong Pan, and Zhiwei Xiong, "Bidirectional Translation Between UHD-HDR and HD-SDR Videos",
 *IEEE Transactions on Multimedia*, 2023.
 
@@ -29,9 +30,11 @@ We provide the training and test code along with the trained weights and the dat
 }
 ```
 
-## Dataset
+## Video example
 
-You can download the training and testing dataset from [this link](https://drive.google.com/open?id=144QYC403NrFXunlsr4k8MXUCxrlauVYH).
+You can see the comparison of SDR video and HDR video in `example/` folder. 
+
+:warning: **Note**: The `HDR.mp4` file is encoded to comply with the HDR10 standard. For the best viewing experience, please watch the video on [certified HDR displays](https://displayhdr.org/certified-products) with maximum brightness. (Alternatively, a Mac Book Pro can be used for convenience.)
 
 ## Test code
 
