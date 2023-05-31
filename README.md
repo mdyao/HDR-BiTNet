@@ -1,4 +1,3 @@
-
 # HDR-BiTNet (TMM 2023)
 
 ## Bidirectional Translation Between UHD-HDR and HD-SDR Videos [Paper](https://ieeexplore.ieee.org/document/10025794/)
@@ -33,9 +32,10 @@ We provide the training and test code along with the trained weights and the dat
 ## Video example
 
 ![test_set_AdobeExpress_AdobeExpress_AdobeExpress](https://github.com/mdyao/HDR-BiTNet/assets/33108887/dc5b1ebe-de24-444f-ab5e-818bed782ea4)
-This gif file is tonemapped to the SDR and compressed for visulization. 
 
-You can see more comparison of SDR video and HDR video in `example/` folder. 
+This gif file is tone mapped to the SDR and compressed for visulization. 
+
+See more comparison of SDR video and HDR video in `example/` folder. 
 
 :warning: **Note**: The `HDR.mp4` file is encoded to comply with the HDR10 standard. For the best viewing experience, please watch the video on [certified HDR displays](https://displayhdr.org/certified-products) with maximum brightness. (Alternatively, a Mac Book Pro can be used for convenience.)
 
