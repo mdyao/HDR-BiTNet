@@ -7,7 +7,7 @@
 
 *Corresponding Author, University of Science and Technology of China (USTC)
 
-:rocket: This is the official repository of HDR-BiTNet (TMM 2023). :star:
+:rocket: This is the official repository of HDR-BiTNet (TMM 2023). 
 
 **HDR-BiTNet aims at addressing the practical translation between UHD-HDR and HD-SDR videos.**
 
@@ -41,8 +41,10 @@ You can download the training and testing dataset from [this link](https://drive
 3. Put the pretrained model file (./model.pth) in a proper folder.
 4. Set a config file in options/test/, then run as following:
 
+    ```
+        python test.py -opt options/test/test.yml
 
-    python test.py -opt options/test/test.yml
+    ```
 
 
 ## Code Framework
@@ -64,7 +66,7 @@ The code framework follows [BasicSR](https://github.com/xinntao/BasicSR/tree/mas
 
 ## Contact
 
-If you have any problem with the released code, please do not hesitate to open an issue or submit a pull request.
+If you have any problem with the released code, please do not hesitate to open an issue.
 
 For any inquiries or questions, please contact me by email (mdyao@mail.ustc.edu.cn) or wechat. 
 <div align=center><img width="100" alt="wechat" src="https://user-images.githubusercontent.com/33108887/225539514-7c10ccc7-0710-4d7a-8a09-643cf3832d53.png"></div>
