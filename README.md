@@ -7,7 +7,9 @@
 
 *Corresponding Author, University of Science and Technology of China (USTC)
 
-**This is the official repository of HDR-BiTNet (TMM 2023). HDR-BiTNet aims at addressing the practical translation between UHD-HDR and HD-SDR videos.**
+**:\rocket\ This is the official repository of HDR-BiTNet (TMM 2023). :\star\
+
+ HDR-BiTNet aims at addressing the practical translation between UHD-HDR and HD-SDR videos.**
 
 We provide the training and test code along with the trained weights and the dataset (train+test) used for the HDR-BiTNet. If you find this repository useful, please consider starring this repo and citing our paper.
 
