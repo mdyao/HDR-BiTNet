@@ -11,7 +11,7 @@
 
 **HDR-BiTNet aims at addressing the practical translation between UHD-HDR and HD-SDR videos.**
 
-We provide the training and test code along with the trained weights and the dataset (train+test) used for the HDR-BiTNet. If you find this repository useful, please star :star2: this repo and cite our paper :page_facing_up:.
+We provide the training and test code along with the trained weights and the dataset (train+test) used for the HDR-BiTNet. If you find this repository useful, please star this repo :star2: and cite our paper :page_facing_up:.
 
 **Reference**:  
 > Mingde Yao, Dongliang He, Xin Li, Zhihong Pan, and Zhiwei Xiong, "Bidirectional Translation Between UHD-HDR and HD-SDR Videos",
