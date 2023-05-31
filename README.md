@@ -37,7 +37,7 @@ This gif file is tone mapped to SDR and compressed for visulization.
 
 See more comparison of SDR video and HDR video in `example/` folder. 
 
-:warning: **Note**: The `HDR.mp4` file is encoded to comply with the HDR10 standard. For the best viewing experience, please watch the video on [certified HDR displays](https://displayhdr.org/certified-products) with maximum brightness. (Alternatively, a Mac Book Pro can be used for convenience.)
+:warning: **Note**: The `HDR.mp4` file is encoded to comply with the HDR10 standard. For the best viewing experience, please watch the video on [certified HDR displays](https://displayhdr.org/certified-products) with maximum brightness. Alternatively, a Mac Book Pro can be used for convenience.
 
 ## Test code
 
