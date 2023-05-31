@@ -7,11 +7,11 @@
 
 *Corresponding Author, University of Science and Technology of China (USTC)
 
-**:rocket: This is the official repository of HDR-BiTNet (TMM 2023). :star:
+:rocket: This is the official repository of HDR-BiTNet (TMM 2023). :star:
 
- HDR-BiTNet aims at addressing the practical translation between UHD-HDR and HD-SDR videos.**
+**HDR-BiTNet aims at addressing the practical translation between UHD-HDR and HD-SDR videos.**
 
-We provide the training and test code along with the trained weights and the dataset (train+test) used for the HDR-BiTNet. If you find this repository useful, please consider starring this repo and citing our paper.
+We provide the training and test code along with the trained weights and the dataset (train+test) used for the HDR-BiTNet. If you find this repository useful, please consider starring :star2: this repo and citing our paper :page_facing_up:.
 
 **Reference**:  
 > Mingde Yao, Dongliang He, Xin Li, Zhihong Pan, and Zhiwei Xiong, "Bidirectional Translation Between UHD-HDR and HD-SDR Videos",
@@ -62,11 +62,11 @@ The code framework follows [BasicSR](https://github.com/xinntao/BasicSR/tree/mas
 
 <!-- This repository is the **official implementation** of the paper, "Bidirectional Translation Between UHD-HDR and HD-SDR Videos", where more implementation details are presented. -->
 
-
 ## Contact
 
+If you have any problem with the released code, please do not hesitate to open an issue or submit a pull request.
 
-If you have any problem with the released code, please do not hesitate to contact me by email (mdyao@mail.ustc.edu.cn) or wechat. 
+For any inquiries or questions, please contact me by email (mdyao@mail.ustc.edu.cn) or wechat. 
 <div align=center><img width="100" alt="wechat" src="https://user-images.githubusercontent.com/33108887/225539514-7c10ccc7-0710-4d7a-8a09-643cf3832d53.png"></div>
 <!---
 <div align=center><img width="100" alt="wechat" src="https://user-images.githubusercontent.com/33108887/225539514-7c10ccc7-0710-4d7a-8a09-643cf3832d53.png"></div>
