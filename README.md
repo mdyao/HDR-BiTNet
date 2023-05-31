@@ -42,7 +42,6 @@ You can download the training and testing dataset from [this link](https://drive
 
     python test.py -opt options/test/test.yml
 
-Training code will be released later.
 
 ## Code Framework
 The code framework follows [BasicSR](https://github.com/xinntao/BasicSR/tree/master/codes). 
