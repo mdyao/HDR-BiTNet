@@ -1,5 +1,6 @@
-# HDR-BiTNet (translation between HDRTV and SDRTV)
 
+<div align="center">
+  
 ## Bidirectional Translation between UHD-HDR and HD-SDR Videos [Paper](https://ieeexplore.ieee.org/document/10025794/)
 
 [Mingde Yao](https://scholar.google.com/citations?user=fsE3MzwAAAAJ&hl=en), [Dongliang He](https://scholar.google.com/citations?user=ui6DYGoAAAAJ&hl=en), [Xin Li](https://scholar.google.com/citations?user=4BEGYMwAAAAJ&hl=zh-CN), [Zhihong Pan](https://scholar.google.com/citations?user=IVxQvz0AAAAJ&hl=en), and [Zhiwei Xiong](http://staff.ustc.edu.cn/~zwxiong/)*
@@ -10,7 +11,11 @@
 
 **HDR-BiTNet aims at addressing the practical translation between UHD-HDR (HDRTV) and HD-SDR (SDRTV) videos.**
 
-We provide the training and test code along with the trained weights and the dataset (train+test) used for the HDR-BiTNet. If you find this repository useful, please star this repo :star2: and cite our paper :page_facing_up:.
+We provide the training and test code along with the trained weights and the dataset (train+test) used for the HDR-BiTNet. 
+
+:heart: If you find this repository useful, please star this repo :star2: and cite our paper :page_facing_up:.
+
+</div>
 
 **Reference**:  
 
