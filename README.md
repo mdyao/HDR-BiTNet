@@ -73,9 +73,4 @@ The code framework follows [BasicSR](https://github.com/xinntao/BasicSR/tree/mas
 
 If you have any problem with the released code, please do not hesitate to open an issue.
 
-For any inquiries or questions, please contact me by email (mdyao@mail.ustc.edu.cn) or wechat. 
-<div align=center><img width="100" alt="wechat" src="https://user-images.githubusercontent.com/33108887/225539514-7c10ccc7-0710-4d7a-8a09-643cf3832d53.png"></div>
-<!---
-<div align=center><img width="100" alt="wechat" src="https://user-images.githubusercontent.com/33108887/225539514-7c10ccc7-0710-4d7a-8a09-643cf3832d53.png"></div>
--->
-
+For any inquiries or questions, please contact me by email (mdyao@mail.ustc.edu.cn).
