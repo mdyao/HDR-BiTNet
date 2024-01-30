@@ -9,13 +9,13 @@
 
 :rocket: This is the official repository of HDR-BiTNet (TMM 2023). 
 
+</div>
+
 **HDR-BiTNet aims at addressing the practical translation between UHD-HDR (HDRTV) and HD-SDR (SDRTV) videos.**
 
 We provide the training and test code along with the trained weights and the dataset (train+test) used for the HDR-BiTNet. 
 
 :heart: If you find this repository useful, please star this repo :star2: and cite our paper :page_facing_up:.
-
-</div>
 
 **Reference**:  
 
