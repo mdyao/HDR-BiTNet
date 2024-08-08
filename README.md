@@ -36,11 +36,14 @@ We provide the training and test code along with the trained weights and the dat
 
 ## Video example
 
-:warning: **Note**: The `HDR.mp4` file is encoded to comply with the HDR10 standard. For the best viewing experience, please watch the video on [certified HDR displays](https://displayhdr.org/certified-products) with maximum brightness. Alternatively, a Mac Book Pro can be used for convenience.
+:warning: **Note**: This GIF image has been tone-mapped to SDR and compressed for visibility.
+
+
 
 ![test_set_AdobeExpress_AdobeExpress_AdobeExpress](https://github.com/mdyao/HDR-BiTNet/assets/33108887/dc5b1ebe-de24-444f-ab5e-818bed782ea4)
 
-This GIF image has been tone-mapped to SDR and compressed for visibility.
+
+:warning: **Note**: The HDR file in https://github.com/mdyao/HDR-BiTNet/tree/main/examples is encoded to comply with the HDR10 standard. For the best viewing experience, please watch the video on [certified HDR displays](https://displayhdr.org/certified-products) with maximum brightness. Alternatively, a Mac Book Pro can be used for convenience.
 
 See more comparison of SDR video and HDR video in `example/` folder. 
 
