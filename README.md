@@ -3,9 +3,9 @@
   
 ## Bidirectional Translation between UHD-HDR and HD-SDR Videos [Paper](https://ieeexplore.ieee.org/document/10025794/)
 
-[Mingde Yao](https://scholar.google.com/citations?user=fsE3MzwAAAAJ&hl=en), [Dongliang He](https://scholar.google.com/citations?user=ui6DYGoAAAAJ&hl=en), [Xin Li](https://scholar.google.com/citations?user=4BEGYMwAAAAJ&hl=zh-CN), [Zhihong Pan](https://scholar.google.com/citations?user=IVxQvz0AAAAJ&hl=en), and [Zhiwei Xiong](http://staff.ustc.edu.cn/~zwxiong/)*
+[Mingde Yao](https://scholar.google.com/citations?user=fsE3MzwAAAAJ&hl=en), [Dongliang He](https://scholar.google.com/citations?user=ui6DYGoAAAAJ&hl=en), [Xin Li](https://scholar.google.com/citations?user=4BEGYMwAAAAJ&hl=zh-CN), [Zhihong Pan](https://scholar.google.com/citations?user=IVxQvz0AAAAJ&hl=en), and [Zhiwei Xiong](http://staff.ustc.edu.cn/~zwxiong/)
 
-*Corresponding Author, University of Science and Technology of China (USTC)
+University of Science and Technology of China (USTC)
 
 :rocket: This is the official repository of HDR-BiTNet (TMM 2023). 
 
@@ -36,13 +36,14 @@ We provide the training and test code along with the trained weights and the dat
 
 ## Video example
 
+:warning: **Note**: The `HDR.mp4` file is encoded to comply with the HDR10 standard. For the best viewing experience, please watch the video on [certified HDR displays](https://displayhdr.org/certified-products) with maximum brightness. Alternatively, a Mac Book Pro can be used for convenience.
+
 ![test_set_AdobeExpress_AdobeExpress_AdobeExpress](https://github.com/mdyao/HDR-BiTNet/assets/33108887/dc5b1ebe-de24-444f-ab5e-818bed782ea4)
 
 This GIF image has been tone-mapped to SDR and compressed for visibility.
 
 See more comparison of SDR video and HDR video in `example/` folder. 
 
-:warning: **Note**: The `HDR.mp4` file is encoded to comply with the HDR10 standard. For the best viewing experience, please watch the video on [certified HDR displays](https://displayhdr.org/certified-products) with maximum brightness. Alternatively, a Mac Book Pro can be used for convenience.
 
 ## Test code
 
