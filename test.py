@@ -32,7 +32,7 @@ def compute_ssim(img1, img2):
 
     ssims = []
     for i in range(3):
-        ssims.append(ssim(img1[i], img2[i]))
+        ssims.append(ssim(img1[i], img2[i],data_range=1))
     return np.array(ssims).mean()
 
 
@@ -109,33 +109,19 @@ def main():
         resume_state = None
 
     #### mkdir and loggers
-    if rank <= 0:  # normal training (rank -1) OR distributed training (rank 0)
-        if resume_state is None:
-            util.mkdir_and_rename(
-                opt['path']['experiments_root'])  # rename experiment folder if exists
-            util.mkdirs((path for key, path in opt['path'].items() if not key == 'experiments_root'
-                         and 'pretrain_model' not in key and 'resume' not in key))
+    if resume_state is None:
+        util.mkdir_and_rename(
+            opt['path']['experiments_root'])  # rename experiment folder if exists
+        util.mkdirs((path for key, path in opt['path'].items() if not key == 'experiments_root'
+                        and 'pretrain_model' not in key and 'resume' not in key))
 
-        # config loggers. Before it, the log will not work
-        util.setup_logger('base', opt['path']['log'], 'train_' + opt['name'], level=logging.INFO,
-                          screen=True, tofile=True)
-        util.setup_logger('val', opt['path']['log'], 'val_' + opt['name'], level=logging.INFO,
-                          screen=True, tofile=True)
-        logger = logging.getLogger('base')
-        logger.info(option.dict2str(opt))
-        # tensorboard logger
-        if opt['use_tb_logger'] and 'debug' not in opt['name']:
-            version = float(torch.__version__[0:3])
-            if version >= 1.1:  # PyTorch 1.1
-                from tensorboardX import SummaryWriter
-            else:
-                logger.info(
-                    'You are using PyTorch {}. Tensorboard will use [tensorboardX]'.format(version))
-                from tensorboardX import SummaryWriter
-            tb_logger = SummaryWriter(log_dir='./tb_logger/' + opt['name'])
-    else:
-        util.setup_logger('base', opt['path']['log'], 'train', level=logging.INFO, screen=True)
-        logger = logging.getLogger('base')
+    # config loggers. Before it, the log will not work
+    util.setup_logger('base', opt['path']['log'], 'train_' + opt['name'], level=logging.INFO,
+                        screen=True, tofile=True)
+    util.setup_logger('val', opt['path']['log'], 'val_' + opt['name'], level=logging.INFO,
+                        screen=True, tofile=True)
+    logger = logging.getLogger('base')
+    logger.info(option.dict2str(opt))
 
     # convert to NoneDict, which returns None for missing keys
     opt = option.dict_to_nonedict(opt)
@@ -207,7 +193,7 @@ def main():
     for val_data in val_loader:
         idx += 1
         model.feed_data_test(val_data)
-        model.test_bi()
+        # model.test_bi()
         model.test()
         visuals = model.get_current_visuals()
         HDR_pred_ori = visuals['HDR_pred'].numpy()*1023
